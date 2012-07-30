@@ -5,7 +5,8 @@
  * and open the template in the editor.
  */
 include 'config.php';
-setcookie('fbs_'.$facebook->getAppId(), '', time()-100, '/', '27socialapps.com');
+setcookie('fbs_'.$facebook->getAppId(), '', time()-100, '/', DOMAIN_NAME);
 session_destroy();
-header('Location: http://27socialapps.com/fb/examples');
+$home_url = "Location: ".PROJECT_HOME_URL;
+header($home_url);
 ?>
