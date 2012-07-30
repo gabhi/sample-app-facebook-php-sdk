@@ -1,9 +1,4 @@
 <?php
-include 'constants.php';
-?>
-
-
-<?php
 /**
  * Copyright 2011 Facebook, Inc.
  *
@@ -19,9 +14,8 @@ include 'constants.php';
  * License for the specific language governing permissions and limitations
  * under the License.
  */
-include 'config.php';
 
-
+include 'init.php';
 if ($user) {
     try {
         // Proceed knowing you have a logged in user who's authenticated.
