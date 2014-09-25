@@ -10,14 +10,14 @@ Steps
         b.4) In my case it was http://27socialapps.com/fb/facebook-php-sample-app 
         b.5) Save Changes 
 
-2) Goto config.php in facebook-php-sample-app 
+2) Goto example/example.php   
         
         a) update appId and secret values for your app. 
 
-3) Modify constants.php in facebook-php-sample-app 
+3) 
 
-4) thats it.
+4) thats it. access your example page from <server>/sample-app-facebook-php-sdk/examples/example.php
 ============================
 For any issues or concerns contact me at gabhi.com or gaikwad.abhijit@gmail.com
 
-This code has been forked from https://github.com/facebook/facebook-php-sdk
+This code has been forked from https://github.com/facebook/facebook-php-sdk-v4
